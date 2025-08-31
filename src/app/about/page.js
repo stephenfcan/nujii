@@ -6,9 +6,9 @@ export default function AboutPage() {
         nujii is a community-inspired craft tea company based out of Denver, CO — available exclusively through pop-up experiences.
       </p>
       <p className="font-sans text-md md:text-lg text-center max-w-xl">
-        our teas are sourced from the high mountain regions of Taiwan and China, offered exclusively in loose-leaf form for the purest 
-        expression of flavor. we carefully modify the water&apos;s minerality to unlock each tea&apos;s ideal tast profile, and our specialists are trained in precise
-         steep times, temperatures, and ingredient ratios to ensure every cup is perfectly crafted.
+        our teas are sourced from the high mountain regions of Taiwan and China, offered strictly in loose-leaf form for the purest 
+        expression of flavor. we carefully adjust the water&apos;s minerality to unlock each tea&apos;s ideal taste profile, while steeping with precise times, 
+        temperatures, and ingredient ratios to ensure every cup is masterfully crafted.
       </p>
     </div>
   );
