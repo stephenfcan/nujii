@@ -7,7 +7,7 @@ export default function AboutPage() {
       </p>
       <p className="font-sans text-lg text-center max-w-xl">
         our teas are sourced from the high mountain regions of Taiwan and China, offered exclusively in loose-leaf form for the purest 
-        expression of flavor. we carefully modify the water's minerality to unlock the ideal profile for each tea, and our specialists are trained in precise
+        expression of flavor. we carefully modify the water&apos;s minerality to unlock each tea&apos;s ideal tast profile, and our specialists are trained in precise
          steep times, temperatures, and ingredient ratios to ensure every cup is perfectly crafted.
       </p>
     </div>
