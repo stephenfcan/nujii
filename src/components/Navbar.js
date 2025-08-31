@@ -9,7 +9,7 @@ export default function Navbar() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/Popups">Pop-Ups</Link>
+          <Link href="/popups">Pop-Ups</Link>
         </li>
         <li>
           <Link href="/about">About</Link>
