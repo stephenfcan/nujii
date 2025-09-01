@@ -4,7 +4,8 @@ export default function PopupsPage() {
       <div className="flex flex-col items-center justify-center min-h-screen -mt-20">
         <h1 className="font-Mirage text-5xl">upcoming pop-ups</h1>
         <div className="mt-12">
-            <p className="font-sans text-md max-w-xl">
+            <p className="font-sans text-md max-w-xl">Stay tuned!</p>
+            {/* <p className="font-sans text-md max-w-xl">
                 Havana Street Night Market - September 27
             </p>
             <p className="font-sans text-md max-w-xl">
@@ -12,7 +13,7 @@ export default function PopupsPage() {
             </p>
             <p className="font-sans text-md max-w-xl">
                 2710 S Havana St, Aurora, CO 80014
-            </p>
+            </p> */}
         </div>
       </div>
     </div>
