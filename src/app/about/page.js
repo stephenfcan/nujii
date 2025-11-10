@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="bg-white text-[#29c453] flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-4 sm:p-20 pt-20 sm:pt-0 -mt-14">
+    <div className="bg-white text-[#1a7533] flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-4 sm:p-20 pt-20 sm:pt-0 -mt-14">
       <h1 className="font-Mirage text-5xl pb-3">about nujii</h1>
       <p className="font-sans text-center max-w-xl pb-3">
         nujii is a community-inspired craft tea company based out of Denver, CO — available exclusively through pop-up experiences.
