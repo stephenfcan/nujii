@@ -12,6 +12,9 @@ export default function Navbar() {
           <Link href="/popups">Pop-Ups</Link>
         </li>
         <li>
+          <Link href="/menu">Menu</Link>
+        </li>
+        <li>
           <Link href="/about">About</Link>
         </li>
       </ul>
