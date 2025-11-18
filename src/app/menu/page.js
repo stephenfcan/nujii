@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MenuPage() {
   return (
-    <div className="bg-white text-[#1a7533] flex flex-col justify-end min-h-screen p-8 pb-20 gap-4 sm:p-20 pt-20 sm:pt-0 -mt-14">
+    <div className="bg-white text-[#1a7533] flex flex-col justify-start min-h-screen p-8 pb-20 gap-4 sm:p-20 pt-20 sm:pt-0 -mt-14">
       <h1 className="font-Mirage text-5xl sm:mt-20 mt-5 pb-3">menu</h1>
       <i className="font-sans max-w-xl pb-3">
         our menu varies each season to highlight the freshest harvests from our partners
