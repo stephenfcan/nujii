@@ -10,7 +10,7 @@ export default function PopupsPage() {
                 Private Tea Tasting
               </p>
               <p className="font-sans text-md max-w-xl">
-                January 10, 1-3pm
+                January 18, 1-3pm
               </p>
               <i className="font-sans text-md max-w-xl">
                 Private Location
