@@ -18,9 +18,9 @@ export default function Navbar() {
           <li>
             <Link href="/about">About</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/labo">Labo</Link>
-          </li>
+          </li> */}
       </ul>
       <ul className='font-sans text-[#1a7533] text-sm'>
         <Link href='https://www.instagram.com/nujiitea/'>
