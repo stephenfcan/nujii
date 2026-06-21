@@ -10,7 +10,7 @@ export default function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/popups">Pop-Ups</Link>
+            <Link href="/locations">Locations</Link>
           </li>
           <li>
             <Link href="/menu">Menu</Link>
@@ -22,11 +22,16 @@ export default function Navbar() {
             <Link href="/labo">Labo</Link>
           </li> */}
       </ul>
-      <ul className='font-sans text-[#1a7533] text-sm'>
+      <ul className='flex space-x-4 md:space-x-8 font-sans text-[#1a7533] text-sm'>
+          <li>
+            <Link href="/order"><b>Order</b></Link>
+          </li>
+      </ul>
+      {/* <ul className='font-sans text-[#1a7533] text-sm'>
         <Link href='https://www.instagram.com/nujiitea/'>
           <AiFillInstagram size={30} />
         </Link>
-      </ul>
+      </ul> */}
     </nav>
   );
 }
