@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MenuPage() {
   return (
     <div className="bg-white text-[#1a7533] flex flex-col justify-center min-h-screen p-8 pb-20 gap-4 sm:p-20 pt-20 sm:pt-0 -mt-14">
-      <h1 className="font-Mirage text-5xl sm:mt-20 mt-5 pb-3">menu</h1>
+      <h1 className="font-Mirage text-5xl sm:mt-20 xl:mt-30 pb-3">menu</h1>
       <i className="font-sans max-w-xl pb-3 xl:mb-10">
         sourced directly from the farm, our tea leaves are handpicked and grown pesticide-free
       </i>
@@ -66,7 +66,7 @@ export default function MenuPage() {
               </div>
               <div className="flex space-x-3 sm:space-x-5">
                 <p>earl grey matcha latte</p>
-                <p>matcha + earl grey syrup + whole milk</p>
+                <p>matcha + earl syrup + whole milk</p>
               </div>
               <div className="flex space-x-3 sm:space-x-5">
                 <p>tokyo fog</p>

@@ -31,8 +31,8 @@ export default function AboutPage() {
           </div>
           <div className="flex space-x-5">
             {/* Images */}
-            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://github.com/user-attachments/assets/78b0e7ff-0d10-458d-963b-79a82ddcbbd2" alt="" />
-            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://github.com/user-attachments/assets/28b5b4b5-c33b-48f9-81b0-0309790c6fb6" alt="" />
+            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://raw.githubusercontent.com/stephenfcan/nujii/refs/heads/main/public/images/popup%20group.jpg" alt="" />
+            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://raw.githubusercontent.com/stephenfcan/nujii/refs/heads/main/public/images/popup%20ella.jpg" alt="" />
           </div>
         </div>
       </div>
