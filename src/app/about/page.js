@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl mb-5">our story</h2>
             <div className="space-y-4 font-sans">
-              <p className="xl:w-150">nujii is the passion project of a couple of UGA alums. As undergrads, they realized there wasn't a premium, beverage-forward option for milk teas and matcha in Athens. 4 years later, and while the number of options grew, the quality bar hadn&apos;t, so they decided to raise it themselves.</p>
+              <p className="xl:w-150">nujii is the passion project of a couple of UGA alums. As undergrads, they realized there wasn't a premium, beverage-forward option for milk teas and matcha in Athens. 4 years later, while the number of options grew, the quality bar hadn&apos;t, so they decided to raise it themselves.</p>
             </div>
           </div>
           <div className="flex space-x-5">
