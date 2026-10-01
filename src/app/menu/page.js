@@ -5,12 +5,12 @@ export default function MenuPage() {
     <div className="bg-white text-[#1a7533] flex flex-col justify-center min-h-screen p-8 pb-20 gap-4 sm:p-20 pt-20 sm:pt-0 -mt-14">
       <h1 className="font-Mirage text-5xl sm:mt-20 xl:mt-30 pb-3">menu</h1>
       <i className="font-sans max-w-xl pb-3 xl:mb-10">
-        sourced directly from the farm, our tea leaves are handpicked and grown pesticide-free
+        all drinks are made with housemade syrups and come with oat milk
       </i>
-        {/* classic teas */}
-        <div className="xl:flex justify-between mb-5 xl:space-x-5 space-x-5 space-y-5 xl:space-y-0">
+        {/* matcha */}
+        {/* <div className="xl:flex justify-between mb-5 xl:space-x-5 space-x-5 space-y-5 xl:space-y-0">
           <div>
-            <h2 className="text-3xl mb-5">high mountain tea series</h2>
+            <h2 className="text-3xl mb-5">matcha series</h2>
             <div className="space-y-4 font-sans xl:w-150">
               <div className="flex space-x-3 sm:space-x-5">
                 <p>jasmine green oolong milk tea</p>
@@ -24,12 +24,12 @@ export default function MenuPage() {
               </div>
             </div>
           </div>
-          <div className="flex space-x-5">
+          <div className="flex space-x-5"> */}
             {/* Images */}
-            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://github.com/user-attachments/assets/877a79e2-7bcb-411a-b98c-95c2c846093c" alt="" />
+            {/* <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://github.com/user-attachments/assets/877a79e2-7bcb-411a-b98c-95c2c846093c" alt="" />
             <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://github.com/user-attachments/assets/a1b70973-c9fb-4dcc-b1f7-f31ff2968a33" alt="" />
           </div>
-          </div>
+          </div> */}
         {/* premium teas */}
         {/* <div className="xl:flex justify-between mb-5 xl:space-x-22 space-x-5 space-y-5 xl:space-y-0">
           <div>
@@ -61,27 +61,39 @@ export default function MenuPage() {
             <h2 className="text-3xl mb-5">matcha series</h2>
             <div className="space-y-4 font-sans xl:w-150">
               <div className="flex space-x-3 sm:space-x-5">
-                <p>classic matcha latte</p>
-                <p>matcha + choice of syrup + whole milk</p>
+                <b>strawberry matcha latte</b>
+                <p>first flush matcha, oat milk, strawberry syrup</p>
               </div>
               <div className="flex space-x-3 sm:space-x-5">
-                <p>earl grey matcha latte</p>
-                <p>matcha + earl syrup + whole milk</p>
+                <b>osmanthus matcha latte</b>
+                <p>first flush matcha, oat milk, osmanthus syrup</p>
               </div>
               <div className="flex space-x-3 sm:space-x-5">
-                <p>tokyo fog</p>
-                <p>matcha foam + earl grey syrup + jasmine oolong tea</p>
+                <b>brown sugar maple matcha latte</b>
+                <p>first flush matcha, oat milk, brown sugar maple syrup</p>
               </div>
               <div className="flex space-x-3 sm:space-x-5">
-                <p>black sesame foam matcha</p>
-                <p>matcha + choice of syrup + whole milk + black sesame foam</p>
+                <b>earl grey matcha latte</b>
+                <p>first flush matcha, oat milk, earl grey syrup</p>
+              </div>
+              <div className="flex space-x-3 sm:space-x-5">
+                <b>tokyo fog</b>
+                <p>first flush matcha, oat milk, earl grey syrup, cream top</p>
+              </div>
+              <div className="flex space-x-3 sm:space-x-5">
+                <b>coconut matcha</b>
+                <p>first flush matcha, coconut water, cream top</p>
+              </div>
+              <div className="flex space-x-3 sm:space-x-5">
+                <b>sparkling strawberry yuzu matcha</b>
+                <p>first flush matcha, yuzu strawberry syrup, sparkling water</p>
               </div>
             </div>
           </div>
           <div className="flex space-x-5">
             {/* Images */}
-            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://github.com/user-attachments/assets/f8f7a239-e80d-46c0-9157-36b24490e6ec" alt="" />
-            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://github.com/user-attachments/assets/6c0b8065-75f0-4f5b-bffd-cfdff7872f39" alt="" />
+            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://private-user-images.githubusercontent.com/84104582/662820189-553c9666-0a9d-4cbf-9e3f-09381ad0c557.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTA4MzYzMDMsIm5iZiI6MTc5MDgzNjAwMywicGF0aCI6Ii84NDEwNDU4Mi82NjI4MjAxODktNTUzYzk2NjYtMGE5ZC00Y2JmLTllM2YtMDkzODFhZDBjNTU3LmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAwMVQwNjI2NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMzI5MDJmZjZhZjJkNzQ2YzVhMzViNzU5M2VhYTdjNDBjNTAzYjM2NTc0NWVhOTI2NjA4ZDZjZWJjYzAyZTk1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZqcGVnIn0.ZPvtnbSetlrr-A-j9SlMCvSzqQ-Rf55Fn2M8viddf6c" alt="" />
+            <img className='h-30 w-30 object-contain md:h-60 md:w-60' src="https://private-user-images.githubusercontent.com/84104582/662819692-c399e5f7-9119-4605-9210-8c006dd839e7.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTA4MzYzMDMsIm5iZiI6MTc5MDgzNjAwMywicGF0aCI6Ii84NDEwNDU4Mi82NjI4MTk2OTItYzM5OWU1ZjctOTExOS00NjA1LTkyMTAtOGMwMDZkZDgzOWU3LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjEwMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMDAxVDA2MjY0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5NDdiZDBkMmEwM2FjMWFjMzhkMGNiMWE3ZmUxMTEyYjgxYWE2YjkyZjgxZGQyOTgwZTRkMGZkMzY3MDQ0YTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWcifQ.gtrSpwdJb04ul2SRBIemW5szBRHG-oJMNKjAAcZd7xc" alt="" />
           </div>
         </div>
       </div>
