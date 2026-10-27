@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link href="/locations">Locations</Link>
           </li>
           <li>
-            <Link href="/menu">Menu</Link>
+            <Link href="https://order.nujii.com">Menu</Link>
           </li>
           <li>
             <Link href="/about">About</Link>
@@ -24,7 +24,7 @@ export default function Navbar() {
       </ul>
       <ul className='flex space-x-4 md:space-x-8 font-sans text-[#1a7533] text-sm'>
           <li>
-            <Link href="/order"><b>Order</b></Link>
+            <Link href="https://order.nujii.com"><b>Order</b></Link>
           </li>
       </ul>
       {/* <ul className='font-sans text-[#1a7533] text-sm'>

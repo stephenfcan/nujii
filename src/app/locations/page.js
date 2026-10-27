@@ -20,13 +20,13 @@ export default function LocationsPage() {
                 Hours:
               </p>
               <p className="font-sans text-md max-w-xl">
-                M-F: 3-9pm
+                M-F: 3-8pm
               </p>
               <p className="font-sans text-md max-w-xl">
-                Saturday: 11-6pm
+                Saturday: 11:30-6pm
               </p>
               <p className="font-sans text-md max-w-xl">
-                Sunday: 3-9pm
+                Sunday: 3-8pm
               </p>
             </div>
         </div>

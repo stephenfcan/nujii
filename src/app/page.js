@@ -13,7 +13,7 @@ export default function Home() {
           <Link className="text-[#1a7533]" href='https://www.instagram.com/nujiitea/'>
             <AiFillInstagram size={30} />
           </Link>
-          <Link className="text-[#1a7533]" href="/order"><b>Order Here</b></Link>
+          <Link className="text-[#1a7533]" href="https://order.nujii.com"><b>Order Here</b></Link>
         </div>
       </div>
     </div>
